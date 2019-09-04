@@ -1,0 +1,12 @@
+package com.chetan.org;
+
+public class AmbigutyMethod {
+
+	public static void main(String[] args) {
+		
+		AmbigutyInterface a=new AmbigutyInterfaceImpl();
+		
+		a.sort(null);
+	}
+
+}

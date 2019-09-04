@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/chemical/jar/cdk-2.0.jar"/>
+	<classpathentry kind="lib" path="D:/chemical/jar/cdk-jchempaint-15.jar"/>
+	<classpathentry kind="lib" path="D:/chemical/jar/cdk-data.jar"/>
+	<classpathentry kind="lib" path="D:/chemical/jar/cdk-interfaces.jar"/>
+	<classpathentry kind="lib" path="D:/chemical/jar/cdk-extra.jar"/>
+	<classpathentry kind="lib" path="D:/chemical/jar/cdk-test-2.1.jar"/>
+	<classpathentry kind="lib" path="D:/chemical/jar/j3d-core-utils-1.3.1.jar"/>
+	<classpathentry kind="lib" path="D:/chemical/jar/j3d-core-1.3.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

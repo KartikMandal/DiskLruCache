@@ -1,0 +1,111 @@
+package com.man.hack;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class CandidateCode {
+	
+	
+	public static int mask(int n) {
+		  int mask = 0;
+		  for (int i = 1; i< n/i; i*= 10) {
+		    int digit = n/i % 10;
+		    mask |= 1 << digit;
+		  }
+		  return mask;
+		}
+
+	
+	
+	public static int dp(int set, int memo[], int[] a) {
+		  if (set == 0) {
+		    return memo[set] = 0;
+		  }
+		  if (memo[set] != -1)
+		    return memo[set];
+		 
+		  int res = 0;
+		  for (int num: a) {
+		    int bitmask = mask(num);
+		    if ((set | bitmask) == set)
+		      res = Integer.max(dp(set ^ mask(num), memo, a) + num, res);
+		  }
+		  return memo[set] = res;
+		}
+		/*public static int dp(int set, int memo[], int[] a) {
+		  if (set == 0) {
+		    return memo[set] = 0;
+		  }
+		  if (memo[(int) set] != -1)
+		    return memo[set];
+
+		  int res = 0;
+		  for (int num: a) {
+		    int bitmask = mask(num);
+		    if ((set | bitmask) == set)
+		      res = Integer.max(dp(set ^ mask(num), memo, a) + num, res);
+		    
+		  }
+		  return memo[set] = res;
+		}*/
+	public static int maxSum(int[] boxElement){
+		Arrays.sort(boxElement);
+		int[] memo=new int[1<<10];
+		  for (int i = 0; i < 1 << 10; i++) 
+			  memo[i] = -1;
+		 
+		  int res = 0;
+		  for (int i = 0; i < 1 << 10; i++) {
+		    res = Integer.max(res, dp(i, memo, boxElement));
+		  }
+		
+		return res;
+		
+		
+	}
+
+	public static void main(String[] args) throws Exception{
+		Scanner scanner = new Scanner(System.in);
+		try {
+			/*int T = scanner.nextInt();
+			// 1 <= T <= 10
+			if (T <= 0 && T > 5) {
+				return;
+			}
+			// System.out.println(T);
+			for (int j = 0; j < T; j++) {
+				int N = scanner.nextInt();
+				// 1 <= M <= 1000
+				if (N <= 0 && N > 100) {
+					return;
+				} else {
+					// System.out.printf(M+" ");
+					long[] boxElement = new long[N];
+					for (int k = 0; k < N; k++) {
+						int element = scanner.nextInt();
+						if (element <=0 && element > 1000000) {
+							return;
+						} else {
+							// System.out.printf(ticket+" ");
+							boxElement[k] = element;
+						}
+					}
+					long data=maxSum(boxElement);
+					System.out.println(data);
+				}
+			}*/
+			
+			//int []boxElement ={121,23,3,333,4};
+			//int []boxElement ={32, 42, 52, 62, 72, 82, 92};
+			//int []boxElement ={3,5,7,2};
+			int []boxElement={14, 12, 23, 45, 39};
+			long data=maxSum(boxElement);
+			System.out.println(data);
+		}catch(Exception e){
+			System.out.println();
+		}
+	
+
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.kartik.disk.lru.cache;
+
+public class StrictLineReader {
+
+}

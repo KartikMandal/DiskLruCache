@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;sum&apos; in &apos;com.kamical.color.service.impl.DiagramCalculator.diagramGenerator(...)&apos; to &apos;totalElectron&apos;&#x0D;&#x0A;- Original project: &apos;KamicalEquation&apos;&#x0D;&#x0A;- Original element: &apos;com.kamical.color.service.impl.DiagramCalculator.diagramGenerator(String).sum&apos;&#x0D;&#x0A;- Renamed element: &apos;sum&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;sum&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;com.kamical.color.service.impl{DiagramCalculator.java[DiagramCalculator~diagramGenerator~QString;@sum!1550!1559!1554!1556!I!0!false" name="totalElectron" references="true" stamp="1517072390722" version="1.0"/>
+</session>

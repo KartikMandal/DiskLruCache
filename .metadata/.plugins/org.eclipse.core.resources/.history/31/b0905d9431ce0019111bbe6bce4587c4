@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package com.kartik.disk.lru.cache;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+/**
+ * @author kmandal
+ *
+ */
+public class DiskLruTest {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

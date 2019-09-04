@@ -1,0 +1,21 @@
+1567503696653	Rename field 'JOURNAL_FILE'
+1567503713843	Rename field 'JOURNAL_FILE_TEMP'
+1567503723793	Rename field 'JOURNAL_FILE_BACKUP'
+1567503760286	Rename field 'journalFile'
+1567503768477	Rename field 'journalFileTmp'
+1567503777420	Rename field 'journalFileBackup'
+1567503829446	Rename method 'readJournalLine'
+1567503848456	Rename method 'processJournal'
+1567503863968	Rename method 'rebuildJournal'
+1567503886837	Rename field 'journalWriter'
+1567503966212	Rename method 'readJournal'
+1567504108477	Delete element
+1567505088175	Rename type 'StrictLineReader'
+1567509396518	Rename field 'journalFile'
+1567509409130	Rename field 'journalBkpFile'
+1567523604427	Rename method 'journalWithEditAndPublish'
+1567523992465	Delete elements
+1567524038717	Copy compilation unit
+1567524044290	Delete element
+1567526647885	Rename type 'Snapshot'
+1567526714794	Rename type 'Entry'

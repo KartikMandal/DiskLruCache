@@ -1,0 +1,62 @@
+package com.kartik.disk.lru.cache;
+
+import java.io.File;
+import java.io.IOException;
+
+import com.kartik.disk.lru.cache.DiskLruCache.Editor;
+
+public final class Entry {
+    private final String key;
+
+    /** Lengths of this entry's files. */
+    private final long[] lengths;
+
+    /** True if this entry has ever been published. */
+    private boolean readable;
+
+    /** The ongoing edit or null if this entry is not being edited. */
+    private Editor currentEditor;
+
+    /** The sequence number of the most recently committed edit to this entry. */
+    private long sequenceNumber;
+
+    private Entry(String key) {
+      this.key = key;
+      this.lengths = new long[valueCount];
+    }
+
+    public String getLengths() throws IOException {
+      StringBuilder result = new StringBuilder();
+      for (long size : lengths) {
+        result.append(' ').append(size);
+      }
+      return result.toString();
+    }
+
+    /** Set lengths using decimal numbers like "10123". */
+    private void setLengths(String[] strings) throws IOException {
+      if (strings.length != valueCount) {
+        throw invalidLengths(strings);
+      }
+
+      try {
+        for (int i = 0; i < strings.length; i++) {
+          lengths[i] = Long.parseLong(strings[i]);
+        }
+      } catch (NumberFormatException e) {
+        throw invalidLengths(strings);
+      }
+    }
+
+    private IOException invalidLengths(String[] strings) throws IOException {
+      throw new IOException("unexpected journal line: " + java.util.Arrays.toString(strings));
+    }
+
+    public File getCleanFile(int i) {
+      return new File(directory, key + "." + i);
+    }
+
+    public File getDirtyFile(int i) {
+      return new File(directory, key + "." + i + ".tmp");
+    }
+  }

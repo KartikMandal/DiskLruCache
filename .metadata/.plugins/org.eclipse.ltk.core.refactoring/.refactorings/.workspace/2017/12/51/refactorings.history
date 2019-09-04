@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 7 resources" deleteContents="true" description="Delete 7 resources" element1="/BChainInsurance" element2="/BitCoin" element3="/BitCoinInsurance" element4="/BlockChain" element5="/BlockChainInsurance" element6="/CryptoChain" element7="/KilBil" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="7" stamp="1513940313608"/>
+</session>

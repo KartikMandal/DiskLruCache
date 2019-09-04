@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;private String displayMaskValue(String data, int [] a, char [] ch)&apos; from &apos;com.masking.Mask.maskValue()&apos; to &apos;com.masking.Mask&apos;&#x0D;&#x0A;- Original project: &apos;Masking&apos;&#x0D;&#x0A;- Method name: &apos;displayMaskValue&apos;&#x0D;&#x0A;- Destination type: &apos;com.masking.Mask&apos;&#x0D;&#x0A;- Declared visibility: &apos;private&apos;&#x0D;&#x0A;- Declare thrown runtime exceptions&#x0D;&#x0A;- Generate method comment" comments="true" description="Extract method &apos;displayMaskValue&apos;" destination="0" exceptions="true" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;com.masking{Mask.java" name="displayMaskValue" replace="false" selection="772 659" stamp="1487082413995" version="1.0" visibility="2"/>
+</session>

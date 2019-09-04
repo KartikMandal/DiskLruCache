@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;N&apos; in &apos;com.man.hack.CandidateCode.main(...)&apos; to &apos;r&apos;&#x0D;&#x0A;- Original project: &apos;Certificate&apos;&#x0D;&#x0A;- Original element: &apos;com.man.hack.CandidateCode.main(String[]).N&apos;&#x0D;&#x0A;- Renamed element: &apos;N&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;N&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;com.man.hack{CandidateCode.java[CandidateCode~main~\[QString;@N!399!424!403!403!I!0!false" name="r" references="true" stamp="1559576688585" version="1.0"/>
+</session>

@@ -1,0 +1,5 @@
+1556797669988	Delete element
+1556797880948	Rename type 'InvalidEncodingException'
+1556814257570	Rename local variable 'ssoCert'
+1556814275497	Rename type 'Base64Encode'
+1556814319612	Rename type 'CertUtil'

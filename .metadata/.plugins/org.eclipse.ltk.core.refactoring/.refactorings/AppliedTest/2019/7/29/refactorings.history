@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;nebourgh&apos; in &apos;com.code.thoughtwork.Solution.main(...)&apos; to &apos;data&apos;&#x0D;&#x0A;- Original project: &apos;AppliedTest&apos;&#x0D;&#x0A;- Original element: &apos;com.code.thoughtwork.Solution.main(String[]).nebourgh&apos;&#x0D;&#x0A;- Renamed element: &apos;nebourgh&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;nebourgh&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;com.code.thoughtwork{Solution.java[Solution~main~\[QString;@nebourgh!1585!1614!1592!1599!\[J!0!false" name="data" references="true" stamp="1563562696234" version="1.0"/>
+</session>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="DiskLruTest" project="DiskLru" tests="6" started="6" failures="0" errors="0" ignored="0">
+  <testsuite name="com.kartik.disk.lru.cache.test.DiskLruTest" incomplete="true">
+    <testcase name="readAndWriteEntryWithoutProperClose" classname="com.kartik.disk.lru.cache.test.DiskLruTest" time="0.412"/>
+    <testcase name="validateKey" classname="com.kartik.disk.lru.cache.test.DiskLruTest" time="0.048"/>
+    <testcase name="emptyCache" classname="com.kartik.disk.lru.cache.test.DiskLruTest" time="0.044"/>
+    <testcase name="writeAndReadEntry" classname="com.kartik.disk.lru.cache.test.DiskLruTest" time="0.068"/>
+    <testcase name="readAndWriteEntryAcrossCacheOpenAndClose" classname="com.kartik.disk.lru.cache.test.DiskLruTest" time="0.073"/>
+    <testcase name="lruWithEditAndPublish" classname="com.kartik.disk.lru.cache.test.DiskLruTest" incomplete="true"/>
+  </testsuite>
+</testrun>

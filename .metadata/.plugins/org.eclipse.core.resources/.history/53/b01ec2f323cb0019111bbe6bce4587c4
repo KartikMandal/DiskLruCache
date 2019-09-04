@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package com.kartik.encryptor;
+
+/**
+ * @author kmandal
+ *
+ */
+public class Encryptor {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

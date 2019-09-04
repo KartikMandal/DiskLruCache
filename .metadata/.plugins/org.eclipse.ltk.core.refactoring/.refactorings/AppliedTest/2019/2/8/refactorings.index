@@ -1,0 +1,7 @@
+1550577211823	Delete elements
+1550579384031	Extract method 'multipleFileReadAndWriteInNewFile'
+1550579432785	Extract method 'oneBigFileSegeratedInMultipleFile'
+1550579894598	Rename local variable 'nol'
+1550580680514	Extract method 'readFileWithOutforLoop'
+1550580784049	Rename type 'SplitFileDemo'
+1550594790395	Rename local variable 'fileName'

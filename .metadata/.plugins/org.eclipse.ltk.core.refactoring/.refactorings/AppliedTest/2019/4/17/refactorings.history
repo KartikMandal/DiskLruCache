@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;path1&apos; in &apos;com.kartik.codility.Candidate.sumNonAdjacent(...)&apos; to &apos;path&apos;&#x0D;&#x0A;- Original project: &apos;AppliedTest&apos;&#x0D;&#x0A;- Original element: &apos;com.kartik.codility.Candidate.sumNonAdjacent(int[]).path1&apos;&#x0D;&#x0A;- Renamed element: &apos;path1&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;path1&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;com.kartik.codility{Candidate.java[Candidate~sumNonAdjacent~\[I@path1!434!482!455!459!QMap\&lt;QInteger;QInteger;&gt;;!0!false" name="path" references="true" stamp="1555867134354" version="1.0"/>
+</session>

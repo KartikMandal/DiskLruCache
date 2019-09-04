@@ -1,0 +1,9 @@
+package com.chetan.org;
+
+public interface AmbigutyInterface {
+	void sort(Object o);
+	void sort(Integer I);
+	void sort(String s);
+	
+	
+}

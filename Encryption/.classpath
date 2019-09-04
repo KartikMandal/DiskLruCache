@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/Perforce/kartik_manadal/razor/external/tools/bouncycastle/1.61/bcpg-jdk15on-161.jar"/>
+	<classpathentry kind="lib" path="D:/Perforce/kartik_manadal/razor/external/tools/bouncycastle/1.61/bcprov-jdk15on-161.jar"/>
+	<classpathentry kind="lib" path="D:/Kartik/extra_jar/jar_files/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="D:/Kartik/extra_jar/jar_files/jasypt-1.9.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

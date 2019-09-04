@@ -1,0 +1,15 @@
+1518421296590	Rename method 'getObitalValue'
+1518425077158	Rename local variable 'subdata'
+1518425328037	Rename local variable 'subdata'
+1518438341111	Delete element
+1518438447161	Delete elements
+1518439707176	Rename type 'Chain'
+1518504918950	Delete element
+1518590606999	Delete elements
+1518605350491	Rename method 'drawCenteredCir'
+1518773877765	Rename field 'hm'
+1518773936956	Rename field 'periodicAtomTableMap'
+1518773954181	Rename field 'periodicTableMap'
+1518774128911	Rename method 'getHm'
+1518774159325	Rename method 'setHm'
+1518774165611	Rename local variable 'hm'

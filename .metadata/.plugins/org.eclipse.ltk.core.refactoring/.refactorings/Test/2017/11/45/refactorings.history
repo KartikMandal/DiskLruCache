@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;map2&apos; in &apos;com.practice.demo.RepeatedSubsequence.repeatedSubsequence(...)&apos; to &apos;list&apos;&#x0D;&#x0A;- Original project: &apos;Test&apos;&#x0D;&#x0A;- Original element: &apos;com.practice.demo.RepeatedSubsequence.repeatedSubsequence(String).map2&apos;&#x0D;&#x0A;- Renamed element: &apos;map2&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;map2&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;com.practice.demo{RepeatedSubsequence.java[RepeatedSubsequence~repeatedSubsequence~QString;@map2!482!531!498!501!QList\&lt;QCharacter;&gt;;!0!false" name="list" references="true" stamp="1509965768026" version="1.0"/>
+</session>

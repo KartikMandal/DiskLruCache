@@ -1,0 +1,84 @@
+package com.kartik.org;
+
+public class LinkListRotate {
+
+	static Node head;
+	static class Node		{
+		int data;
+		Node next;
+		Node (int d)
+		{
+			data = d;
+			next = null;
+		}
+	}
+	
+	
+	static void rotateleft(Node head,Node loop, int val) {	
+		if (loop == null)return;
+		rotateleft(head.next.next, loop.next, val - 1);
+		if (loop.next == null&&val>0) 
+			loop.next = head.next;
+		if (val == 0)
+			head = loop;
+		else if (val == 1) 
+			loop.next=null;
+		}
+	
+		static void leftRotate(Node head, int val) {
+		rotateleft(head,head,val);
+		}
+	
+	//function to print ll//
+	public void printlist(){
+		Node n = head;
+		int count = 0;
+		while(n!= null)
+		{
+			System.out.print(n.data + " > " );
+			n = n.next;
+			count++;
+		}
+		System.out.println("\nNo. of Nodes = " + count);
+	}
+	public void push(int i){
+		Node new_node = new Node(i);
+		new_node.next = head;
+		head = new_node;
+	}
+	
+	public Node rotate(int k){
+		if(head == null)	return head;
+		int count = 1;
+		Node curr = head, n= head ,last= null;
+		while(n.next!= null){
+			last = n.next;
+			n=n.next;
+		}
+		
+		while(count<=k){
+			last.next = head;
+			head = head.next;
+			last = curr;
+			curr.next = null;
+			curr = head ;
+			count++;
+		}
+		
+		return head;
+	}
+	
+	public static void main (String[] args) {
+		LinkListRotate ll = new LinkListRotate();
+		for ( int i = 60 ; i >= 10 ; i=i-10)
+			ll.push(i);
+
+		System.out.println("Generated Linked List: ");
+		ll.printlist();
+		System.out.println("Linked list after rotation: ");
+		//ll.rotate(4);
+		Node curr = head;
+		leftRotate(curr, 4);
+		ll.printlist();
+	}
+}

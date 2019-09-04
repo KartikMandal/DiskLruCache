@@ -1,0 +1,5 @@
+1519753795453	Rename field 'defaultValancy'
+1519753815593	Rename method 'getDefaultValancy'
+1519753829938	Rename method 'setDefaultValancy'
+1519753843891	Rename local variable 'defaultValancy'
+1519754004981	Rename method 'solvedBalance'
